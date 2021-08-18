@@ -171,9 +171,9 @@ menubar = Menu(window)
 
 
 # resim = PhotoImage(file = "C:/Users/mhyms/Pictures/Bugs.png")
-resim = ImageTk.PhotoImage(Image.open('C:/Users/mhyms/Pictures/C:/Users/mhyms/Pictures/aZByxnX_460swp.jpg'))
-snoopDogg = Label(image = resim)
-snoopDogg.place(relx = .15, rely = .2)
+#resim = ImageTk.PhotoImage(Image.open('C:/Users/mhyms/Pictures/C:/Users/mhyms/Pictures/aZByxnX_460swp.jpg'))
+#snoopDogg = Label(image = resim)
+#snoopDogg.place(relx = .15, rely = .2)
 
 
 fileMenu = Menu(menubar, tearoff = 0)
