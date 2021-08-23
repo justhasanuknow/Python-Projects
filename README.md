@@ -1,6 +1,6 @@
 # Python-Projects
 
-The notebook in te Pandas tutorial is a summary of the Pandas Tutorial that i have been following on youtube.
+The notebook in te Notebook/pandas tutorial is a summary of the Pandas Tutorial that i have been following on youtube.
 Name of the channel is CodeBasics.
 
 Here are the links:
