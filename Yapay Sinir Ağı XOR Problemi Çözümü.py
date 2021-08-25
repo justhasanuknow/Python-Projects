@@ -18,7 +18,7 @@ hataOranı4 = list()
 toplamHata = list()
 #-----------------
 
-girisNoronlar, gizliNoronlar, cikisNoronlar = 2, 10, 1
+girisNoronlar, gizliNoronlar, cikisNoronlar = 2, 12, 1
 
 #Sigmoid fonksiyonu
 def sigmoid(x):
