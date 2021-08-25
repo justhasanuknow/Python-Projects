@@ -1,7 +1,7 @@
-﻿Name;Date;Survival Rate;Number of People;Temperature;Bitcoin
-Ankara;1.01.2021;0.5;150000;15;45000
-London;1.02.2021;0.4;250000;25;85000
-New York;1.03.2021;0.3;15000000;30;90000
-Paris;1.04.2021;0.2;5400000;10;20000
-Tokyo;1.05.2021;0.1;99000000;55;60000
-Moscow;1.06.2021;0.0;34000;-20;150000
+﻿Name;Date;Survival Rate;Number of People;Temperature;Bitcoin;Emotion Rate
+Ankara;1.01.2021;0.5;150000;15;45000;50
+London;1.02.2021;0.4;250000;25;85000;not given
+New York;1.03.2021;0.3;15000000;30;90000;35
+Paris;1.04.2021;0.2;5400000;10;20000;error values
+Tokyo;1.05.2021;0.1;99000000;55;60000;98
+Moscow;1.06.2021;0.0;34000;-20;150000;0
