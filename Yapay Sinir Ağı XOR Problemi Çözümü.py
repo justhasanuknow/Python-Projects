@@ -3,7 +3,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import time
 
-#Giriş - Çıkış Datasetleri
+# Giriş - Çıkış Datasetleri
 giris = np.array([[0,0],[0,1],[1,0],[1,1]])
 beklenen_cikis = np.array([[0],[1],[1],[0]])
 
@@ -73,13 +73,13 @@ for i in tqdm(range(tekrar)):
     hata_gizli_katman = t_alinan_cikis.dot(cikis_Agirlik.T)
     t_gizli_katman = hata_gizli_katman * sigmoid_turev(gizli_katman_cikis)
     
-    #Ağırlık ve meyil yenilenmesi
+    # Ağırlık ve meyil yenilenmesi
     cikis_Agirlik += gizli_katman_cikis.T.dot(t_alinan_cikis) * lr
     cikis_Meyil += np.sum(t_alinan_cikis, axis = 0, keepdims = True) * lr
     gizli_Agirlik += giris.T.dot(t_gizli_katman) * lr
     gizli_Meyil += np.sum(t_gizli_katman, axis = 0, keepdims = True) * lr
     
-#Her bir çıkıştaki değişim------------#|
+# Her bir çıkıştaki değişim------------#|
 plt.plot(hataOranı1, label="Çıkış[0]")#|
 plt.plot(hataOranı2, label="Çıkış[1]")#|
 plt.plot(hataOranı3, label="Çıkış[2]")#|
@@ -112,5 +112,4 @@ print("Tekrar sayısı:",tekrar)
 print("\n{} yaklaşımdan sonra ağ çıktısı:".format(tekrar))
 print(*alinan_cikis)
 
-#sysWait = input("\nProgram Tamamlandı.\nÇıkmak için Enter'a basın.\n")
 time.sleep(3)
